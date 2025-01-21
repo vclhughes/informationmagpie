@@ -1,4 +1,6 @@
 ---
+import "../styles/global.css";
+
 const pageTitle = "About the Author";
 
 const author = {
@@ -13,10 +15,6 @@ const author = {
   ],
   qualities: ["voracious reader", "thoughtful writer"],
 };
-
-const happy = true;
-const finished = false;
-const goal = 20;
 ---
 
 <html lang="en">
@@ -27,38 +25,27 @@ const goal = 20;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-    <h1>Information Magpie</h1>
-    <h1>{pageTitle}</h1>
-    <p>
-      I am a {author.identity}, working on a {author.degree}, a {
-        author.qualities[0]
-      },
-      {author.qualities[1]}, and all around curious person.
-    </p>
-    <p>My hobbies include:</p>
-    <ul>
-      {author.hobbies.map((hobby) => <li>{hobby}</li>)}
-    </ul>
-    <p>
-      I am working through Astro's introductorial tutorial slowly but surely as
-      I make my first steps towards creating my very own <a
-        href="https://maggieappleton.com/garden-history/">digital garden</a
-      >. Check back often for updates!
-    </p>
-    {happy && <p>I am happy to be learning Astro!</p>}
-
-    {finished && <p>I finished this tutorial!</p>}
-
-    {
-      goal === 3 ? (
-        <p>My goal is to finish in 3 days.</p>
-      ) : (
-        <p>My goal is not 3 days.</p>
-      )
-    }
-  </body>
 </html>
+<body>
+  <a href="/">Home</a>
+  <a href="/about/">About</a>
+  <a href="/blog/">Blog</a>
+  <h1>Information Magpie</h1>
+  <h1>{pageTitle}</h1>
+  <p>
+    I am a {author.identity}, working on a {author.degree}, a {
+      author.qualities[0]
+    },
+    {author.qualities[1]}, and all around curious person.
+  </p>
+  <p>My hobbies include:</p>
+  <ul>
+    {author.hobbies.map((hobby) => <li class="hobby">{hobby}</li>)}
+  </ul>
+  <p>
+    I am working through Astro's introductorial tutorial slowly but surely as I
+    make my first steps towards creating my very own <a
+      href="https://maggieappleton.com/garden-history/">digital garden</a
+    >. Check back often for updates!
+  </p>
+</body>
