@@ -1,4 +1,6 @@
 ---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const pageTitle = "About the Author";
@@ -27,9 +29,7 @@ const author = {
   </head>
 </html>
 <body>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/blog/">Blog</a>
+  <Header />
   <h1>Information Magpie</h1>
   <h1>{pageTitle}</h1>
   <p>
@@ -48,4 +48,8 @@ const author = {
       href="https://maggieappleton.com/garden-history/">digital garden</a
     >. Check back often for updates!
   </p>
+  <Footer />
+  <script>
+    import "../scripts/menu.js";
+  </script>
 </body>
