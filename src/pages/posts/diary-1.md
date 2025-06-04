@@ -7,7 +7,7 @@ author: 'Victoria'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["website diary"]
 ---
 It's a good thing I love tinkering, because this coding my own website stuff is really putting me to the test!
 
