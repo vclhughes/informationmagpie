@@ -1,7 +1,7 @@
 html {
-    background-color:    #273746;
+    background-color:    #2D2D34;
     font-family: sans-serif;
-    color:  #e5e8e8;
+    color:  #d6d1d8;
 }
 
 body {
@@ -13,11 +13,11 @@ body {
 }
 
 a:link {
-  color:     #5dade2;
+  color:     #0381A0;
 }
 
 a:visited {
-  color:    #3498db;
+  color:    #52B2CF;
 }
 
 * {
@@ -41,7 +41,7 @@ h1 {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #5dade2;
+    background-color: #B86F52;
 }
 
 .nav-links {
@@ -65,7 +65,7 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color:  #1b4f72;
+    background-color:  #B86F52;
 }
 
 .expanded {
