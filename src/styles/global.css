@@ -60,14 +60,15 @@ h3 {
     left: 48px;
     background-color: #ff9776;
     display: none;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
 .nav-links a {
     margin: auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
     padding: 10px;
     text-decoration: none;
