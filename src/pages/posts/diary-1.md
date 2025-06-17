@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Website Diary One'
 pubDate: 2025-05-23
+updated: 2025-05-23
 description: "They say astro is for everyone and I'm putting that to the test."
 author: 'Victoria'
 image:

@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Website Diary Two'
 pubDate: 2025-06-04
+updated: 2025-06-04
 description: "Finally, finally getting everything up and running."
 author: 'Victoria'
 image:

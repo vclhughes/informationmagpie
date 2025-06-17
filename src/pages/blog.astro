@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
-allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
+allPosts.sort((a, b) => Date.parse(b.frontmatter.updated) - Date.parse(a.frontmatter.updated));
 const pageTitle = "Blog";
 ---
 
@@ -9,7 +9,7 @@ const pageTitle = "Blog";
     {allPosts.map((post: any) =>
       <div class="blogPost">
         <h3><a href={post.url}>{post.frontmatter.title}</a></h3>
-        <p>{post.frontmatter.pubDate.toString().slice(0,10)}</p>
+        <p>Published: {post.frontmatter.pubDate.toString().slice(0,10)} | Updated: {post.frontmatter.updated.toString().slice(0,10)}</p>
         <p>{post.frontmatter.description}</p>
       </div>
     )}
