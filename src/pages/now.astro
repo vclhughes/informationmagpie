@@ -4,7 +4,7 @@ const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })
 const pageTitle = "Now";
 ---
 
-<BaseLayout>
+<BaseLayout pageTitle={pageTitle}>
   <p><i>Last updated June 5, 2025</i></p>
   <p>I recently graduated with a Masters in Information from Rutgers University, so I have to admit that I find myself a little aimless at the moment, and focused on finding things that I want to do after three years of full time work and part time school.</p>
   <h3>This Website</h3>

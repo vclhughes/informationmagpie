@@ -7,9 +7,10 @@ const pageTitle = "Blog";
 
 <BaseLayout>
     {allPosts.map((post: any) =>
-      <h3><a href={post.url}>{post.frontmatter.title}</a></h3>
-      <p>{post.frontmatter.pubDate.toString().slice(0,10)}</p>
-      <p>{post.frontmatter.description}</p>
-      <hr>
+      <div class="blogPost">
+        <h3><a href={post.url}>{post.frontmatter.title}</a></h3>
+        <p>{post.frontmatter.pubDate.toString().slice(0,10)}</p>
+        <p>{post.frontmatter.description}</p>
+      </div>
     )}
 </BaseLayout>
