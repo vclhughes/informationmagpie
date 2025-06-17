@@ -2,14 +2,24 @@
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
+<style>
+  .greyBack {
+    border-radius: 25px;
+    background: #484853;
+    padding: 10px 30px;
+    margin: 20px 5px;
+  }
+</style>
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>{frontmatter.pubDate.toString().slice(0, 10)} | {frontmatter.author}</p>
-  <slot />
+  <div class="greyBack">
+    <p>{frontmatter.pubDate.toString().slice(0, 10)} | {frontmatter.author}</p>
+    <slot />
+  </div>
   <div class="tags">
-  {frontmatter.tags.map((tag: string) => (
-    <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
-  ))}
+    {frontmatter.tags.map((tag: string) => (
+      <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
+    ))}
   </div>
 </BaseLayout>
 <style>
@@ -28,6 +38,10 @@ const { frontmatter } = Astro.props;
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
-    background-color: #F8FCFD;
+    background-color: #484853;
+  }
+
+  .tag a {
+    text-decoration: none;
   }
 </style>
