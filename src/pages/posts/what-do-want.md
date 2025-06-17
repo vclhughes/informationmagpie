@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'What do I want?'
+title: 'What do I Want?'
 pubDate: 2025-06-17
 updated: 2025-06-17
 description: "In this post, I’m trying to think through what I want out of my life. What I care about enough to pursue it, what I like enough to keep doing for the fun of it, what matters to me, personally."
