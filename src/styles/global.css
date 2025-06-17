@@ -66,9 +66,6 @@ h3 {
 
 .nav-links a {
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -96,8 +93,10 @@ h3 {
 
 @media screen and (min-width: 636px) {
     .nav-links {
-        margin-left: 5em;
-        display: block;
+        /*margin-left: 5em;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         position: static;
         width: auto;
         background: none;
