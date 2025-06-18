@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Reading: Steering the Craft by Ursula K. LeGuin'
 pubDate: 2025-06-17
-updated: 2025-06-17
+updated: 2025-06-18
 description: "A writing handbook."
 author: 'Victoria'
 tags: ["book", "reading", "writing", "handbook"]
