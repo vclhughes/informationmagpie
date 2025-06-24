@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Reading: The Vulcan Heart by obsidienne'
 pubDate: 2025-06-24
 updated: 2025-06-24
-description: "Kirk/Spock fanfiction, post 'Star Trek: Into Darkness'."
+description: "Kirk/Spock fanfiction, post Star Trek: Into Darkness."
 author: 'Victoria'
 tags: ["fanfiction", "reading", "star trek", "kirk/spock"]
 ---
