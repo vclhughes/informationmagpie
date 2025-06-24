@@ -5,7 +5,7 @@ pubDate: 2025-06-24
 updated: 2025-06-24
 description: "Kirk/Spock fanfiction, post Star Trek: Into Darkness."
 author: 'Victoria'
-tags: ["fanfiction", "reading", "star trek", "kirk/spock"]
+tags: ["fanfiction", "reading", "star trek", "kirk-spock"]
 ---
 
 <a href="https://archiveofourown.org/collections/BestOfTheBestFanfics/works/1024511">Link to the fic.</a>
