@@ -12,6 +12,6 @@
     "@astrojs/rss": "^4.0.12",
     "@fontsource-variable/mulish": "^5.2.6",
     "@fontsource/special-elite": "^5.2.6",
-    "astro": "^5.8.0"
+    "astro": "^5.10.1"
   }
 }
