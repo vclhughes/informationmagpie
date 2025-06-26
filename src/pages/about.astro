@@ -2,19 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "About the Author";
-
-const author = {
-  firstName: "Victoria",
-  identity: "butch lesbian",
-  degree: "Masters in Information",
-  hobbies: [
-    "gaming",
-    "reading science fiction and fantasy",
-    "knitting",
-    "carpentry",
-  ],
-  qualities: ["voracious reader", "thoughtful writer"],
-};
 ---
 <style>
   .greyBack {
@@ -26,22 +13,12 @@ const author = {
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-<div class="greyBack">
-  <p>
-    I am a {author.identity}, working on a {author.degree}, a {
-      author.qualities[0]
-    },
-    {author.qualities[1]}, and all around curious person.
-  </p>
-  <p>My hobbies include:</p>
-  <ul>
-    {author.hobbies.map((hobby) => <li class="hobby">{hobby}</li>)}
-  </ul>
-  <p>
-    I am working through Astro's introductory tutorial slowly but surely as I
-    make my first steps towards creating my very own <a
-      href="https://maggieappleton.com/garden-history/">digital garden</a
-    >. Check back often for updates!
-  </p>
+  <div class="greyBack">
+    <p>I am a butch lesbian, a nerd, and a recently graduated Master of Information. I am fat, I am weird,
+      and I have opinions. This blog is hopefully a place where I will air those opinions more regularly.</p>
+    <p>I love to read, write, code, cook, paddleboard, and play TTRPGs. Not necessarily in that order.</p>
+    <p>I care very strongly about community, freedom of information, anticapitalism. I read mostly science fiction, fantasy, and fanfiction, though I always have at least one nonfiction book going as well. Check the blog to see what I'm currently reading.</p>
+    <p>I have two cats, Billy and Furiosa, and a dog, Moth.</p>
+    <p>I will never use AI on this blog.</p>
   </div>
 </BaseLayout>
